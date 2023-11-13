@@ -1,0 +1,132 @@
+repo_name: carlesloriente/terraform-up-and-running-code
+report_id: 2b1215cd4c27d6da0720b9114d3e316d
+repo_type: Public
+timestamp: '2023-11-13T03:05:25+00:00'
+requested_by: brikis98
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: Google Cloud Storage
+  description: Durable and highly available object storage service
+  website_url: https://cloud.google.com/products/cloud-storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/694/Cloud_Storage.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: OpenCensus
+  description: A single distribution of libraries that automatically collect traces
+    and send them to any backend
+  website_url: https://opencensus.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/10794/EpBd2Xrw_400x400.jpg
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source: code/terraform/10-terraform-team/test/go.mod
+  last_updated_by: Yevgeniy Brikman
+  last_updated_on: 2022-02-24 18:33:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
